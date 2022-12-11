@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+	background-color: black;
+	color: white;
+	font-family: 'Secular One', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	display: flex;
+	direction: row;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.topnav{
+	background-color: #49227d;
+	padding: 10px;
+	border-radius: 12px;
+	margin: 12px;
+}
+.topnav:hover{
+	cursor: pointer;
+	background-color: darkviolet;
+}
+.mcontent{
+	display: flex;
+}
+h3{
+	margin-top: 20px;
+	margin-left: 60px;
+	color: #852f07;
+}
+.forms{
+	width: 850px;
+	height: 500px;
+	background: #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 20px;
+	margin-left: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #182730;
+	box-shadow: 0 0 10px #fff;
+}
+
+.btnbox{
+	display: flex;
+	width: 200px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #0f0f0f;
+	border-radius: 20px;
+}
+.btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.undertable{
+	margin-top: 70px;
+	width: 200px;
+	transition: .5s;
+	background: transparent;
+}
+.field{
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 33px;
+	border: none;
+	border-bottom: 1px solid blueviolet;
+	background-color: transparent;
+	outline: none;
+	background: transparent;
+
+}
+.smt{
+	width: 400px;
+	border: 1px solid blueviolet;
+	margin: 30px 190px;
+	padding: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.smt:hover{
+	background-color: darkviolet;
+}
+input[type="checkbox"]{
+	padding: 0px;
+	cursor: pointer;
+
+}
+.condition{
+	margin: 10px 40px;
+	padding: 10px;
+	width: 250px;
+	display: flex;
+	align-self: center;
+	background: transparent;
+	background-color: transparent;
+}
+.cond{
+	text-align: center;
+	background: transparent;
+	background-color: transparent;
+	cursor: pointer;
+}
+.bt{
+	display: flex;
+	box-sizing: border-box;
+	background: transparent;
+	color: black;
+	font-family: 'Secular One', sans-serif;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	text-transform: uppercase;
+	width: 300px;
+	height: 20px;
+	margin-left: 60px;
+}
+p{
+
+	width: 600px;
+	height: 20px;
+	background-color: transparent;
+}
+input::placeholder{
+	text-align: center;
+	color: black;
+	font-family: 'Secular One', sans-serif;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	text-transform: uppercase;
+}
+
+.tble{
+	display: flex;
+	overflow: hidden;
+	}
+	.tble{
+	width: 400px;
+	height: 500px;
+	background: transparent;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 20px;
+	margin-left: 60px;
+	box-shadow: 3px 3px 10px 3px white;
+}
+.forleft{
+	width: 100%;
+	background-color: whitesmoke;
+	animation:slider1 10s infinite linear;
+	opacity: 0.2;
+
+
+}
+@keyframes slider1{
+	0%{
+		background-image: url("img/burger.jpg");
+		background-size: 100% 100%;
+	}
+	20%{
+		background-image: url("img/kaju.png");
+		background-size: 100% 100%;
+	}
+	40%{
+		background-image: url("img/khichdi.jpg");
+		background-size: 100% 100%;
+	}
+	60%{
+		background-image: url("img/noodles.jpg");
+		background-size: 100% 100%;
+	}
+	80%{
+		background-image: url("img/panner.jpg");
+		background-size: 100% 100%;
+	}
+	100%{
+		background-image: url("img/pizz.jpg");
+		background-size: 100% 100%;
+	}
+	120%{
+		background-image: url("img/thai.jpg");
+		background-size: 100% 100%;
+	}
+	140%{
+		background-image: url("img/desert.jpg");
+		background-size: 100% 100%;
+	}
+	
+}
+.btn:hover{
+	background-color: darkviolet;
+}
+span{
+	background-color: transparent;
+	margin-left: 20px;
+}
